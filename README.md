@@ -1,4 +1,4 @@
-## `Critical Mass Code Challenge`
+## Critical Mass Code Challenge
 
 ```
 $ yarn install && yarn start
@@ -12,9 +12,9 @@ $ npm install && npm start
 
 Runs locally at https://localhost:3000/
 
-### Notes & TODO
+### Notes
 
-I'd like to track a boolean during resize, so that the marker element doesn't tween to new positions while resizing - it should just stick under the active item.
+I'd like to track a `resizing` boolean during resize, so that the marker element doesn't tween to new positions while resizing - it should just stick under the active item.
 
 Current Time display - some animation would be nice.
 
