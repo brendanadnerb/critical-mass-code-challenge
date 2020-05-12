@@ -14,7 +14,7 @@ Runs locally at https://localhost:3000/
 
 ### Notes
 
-I'd like to track a `resizing` boolean during resize, so that the marker element doesn't tween to new positions while resizing - it should just stick under the active item.
+I'd like to track a `resizing` boolean during resize, and take the CSS transition out so that the marker element doesn't tween to new positions while resizing - it should just stick under the active item.
 
 Current Time display - some animation would be nice.
 
