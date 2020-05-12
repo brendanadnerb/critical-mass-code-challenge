@@ -1,0 +1,44 @@
+$grey: #9e9c9e;
+$blue: #2580c7;
+$black: #010001;
+
+nav {
+  position: relative;
+  background-color: white;
+  color: $grey;
+  border-bottom: 1px solid #dcbbdc;
+  font-family: 'SF';
+  font-size: 13px;
+  margin-top: 100px;
+  min-width: 800px;
+
+  ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: space-around;
+
+    li {
+      cursor: pointer;
+      text-align: center;
+      &:hover {
+        color: $blue;
+      }
+      &.active {
+        cursor: default;
+        color: $black;
+        pointer-events: none;
+      }
+    }
+  }
+
+  .marker {
+    position: absolute;
+    height: 1px;
+    background: $black;
+    bottom: -1px;
+    transition: all 0.3s ease-out;
+  }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'SF';
+  src: url('./fonts/SF-Pro-Text-Regular.otf');
+}
+@font-face {
+  font-family: 'SF Thin';
+  src: url('./fonts/SF-Pro-Text-Thin.otf');
+}
+body {
+  font-family: 'SF';
+  font-size: 13px;
+  margin: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
